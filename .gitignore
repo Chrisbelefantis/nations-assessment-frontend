@@ -1,0 +1,41 @@
+# Angular build artifacts
+/dist
+/out-tsc
+
+# Node dependencies
+/node_modules
+
+# IDE and editor files
+/.idea
+/.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Environment files (keep them out of git if they contain secrets)
+/src/environments/*.local.ts
+/src/environments/*.dev.ts
+/src/environments/*.prod.ts
+
+# Compiled output
+*.log
+*.tmp
+*.temp
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Angular testing
+/coverage
+
+# Optional npm/yarn/pnpm caches
+.npm
+.yarn/cache
+.pnpm-store
+
+# Lock files (ignore if using package manager consistently across team)
+/package-lock.json
+/yarn.lock
+/pnpm-lock.yaml

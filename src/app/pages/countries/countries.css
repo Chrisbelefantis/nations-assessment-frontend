@@ -1,0 +1,13 @@
+.countries-container {
+  padding: 16px;
+}
+
+.full-width-table {
+  width: 100%;
+  margin-bottom: 8px;
+}
+
+.error {
+  color: #b00020;
+  margin-bottom: 12px;
+}
