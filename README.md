@@ -101,13 +101,6 @@ npm run build
 
 Artifacts are emitted under `dist/` with production optimizations.
 
-## Testing
-
-```bash
-npm test
-```
-
-Runs unit tests with Karma/Jasmine.
 
 ## Notes
 
